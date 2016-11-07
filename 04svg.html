@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            body{background: black;}
+            #div1{
+                width: 400px;
+                height: 400px;
+                background: white;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <img src="svg01.svg"> -->
+        <!-- <div style="height:200px;width:200px;background:url(svg01.svg) no-repeat"></div> -->
+        <!-- <iframe src="svg01.svg"></iframe> -->
+        <div id="div1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                <!-- <circle cx="100" cy="100" r="40" fill="transparent" stroke="black" stroke-width="1"></circle> -->
+                <!-- <circle cx="100" cy="100" r="40" style="fill:transparent;stroke:black;stroke-width:1;"></circle> -->
+                <!-- <rect width="200" height="200" x="100" y="100" fill="red" rx="30"></rect> -->
+                <line x1="50" y1="50" x2="200" y2="300" stroke="black" stroke-width="5" stroke-opacity="0.5"></line>
+            </svg>
+        </div>
+    </body>
+</html>
+<!--
+            circle  画圆
+            cx  指的是距离屏幕左边的距离
+            cy  指的是距离屏幕上方的距离
+            r   指的是圆的半径
+            fill   填充颜色     transparent 透明
+            stroke  边框颜色
+            stroke-width    边框宽度
+            stroke-opacity  透明度
+
+
+            有些属性可以写在 style里面 有些属性不能写
+
+            rect    画方块
+            x:  指的是距离屏幕左边的距离
+            y:  指的是距离屏幕上方的距离
+            rx: 椭圆X距离
+            ry: 椭圆Y距离
+
+            rx ry 值相同的时候可以写一个
+
+
+            line  画直线
+            x1: 起点X坐标
+            y1: 起点Y坐标
+            x2: 终点X坐标
+            y2: 终点Y坐标
+
+            ellipse:椭圆
+            polyine:折线
+            ploygon:多边形
+            path:路径
+
+
+            引入svg文件的三种方法
+            图片img    背景图background:url()    框架iframe
+
+                直接在html页面中添加svg
+ -->

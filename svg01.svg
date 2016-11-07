@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+    <circle cx="100" cy="100" r="40" fill="red"></circle>
+</svg>
+
+<!--
+    circle  画圆
+    cx  指的是距离屏幕左边的距离
+    cy  指的是距离屏幕上方的距离
+    r   指的是圆的半径
+    fill   填充颜色
+
+    引入svg文件的三种方法
+    图片img    背景图background:url()    框架iframe
+-->
